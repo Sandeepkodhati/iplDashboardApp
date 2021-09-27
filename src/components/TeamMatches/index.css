@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-matches-container {
+  background-color: #d91c1f;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.team-image {
+  align-self: center;
+}
+
+.latest-matches-heading {
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  color: white;
+  margin-top: 30px;
+  align-self: flex-start;
+  margin-left: 125px;
+}
+
+.match-item-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.loader {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rcb {
+  background-image: linear-gradient(to top, #1e293b, #a4261d);
+}
+
+.kkr {
+  background-image: linear-gradient(to top, #1e293b, #5755a7);
+}
+
+.kxp {
+  background-image: linear-gradient(to top, #1e293b, #d91c1f);
+}
+
+.csk {
+  background-image: linear-gradient(to top, #1e293b, #f7db00);
+}
+
+.rr {
+  background-image: linear-gradient(to top, #1e293b, #da237b);
+}
+
+.mi {
+  background-image: linear-gradient(to top, #1e293b, #13418b);
+}
+
+.srh {
+  background-image: linear-gradient(to top, #1e293b, #f26d22);
+}
+
+.dc {
+  background-image: linear-gradient(to top, #1e293b, #4f5db0);
+}

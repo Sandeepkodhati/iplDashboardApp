@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+.match-card-container {
+  background-color: #0f172a;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  list-style-type: none;
+  margin: 10px;
+  width: 20vw;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.match-card-image {
+  height: 100px;
+  width: 130px;
+}
+
+.lost {
+  color: #e31a1a;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+}
+
+.win {
+  color: #18ed66;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+}
+
+.heading {
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  color: white;
+  text-align: center;
+}
+
+.description {
+  font-size: 17px;
+  font-family: 'Bree Serif';
+  color: white;
+  text-align: center;
+}

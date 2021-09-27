@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #1e293b;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: 81vw;
+}
+
+.match-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.match-image {
+  height: 150px;
+  width: 100px;
+}
+
+.competing-team-heading {
+  font-size: 30px;
+  font-family: 'Bree Serif';
+  color: white;
+}
+
+.date-heading {
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  color: white;
+}
+
+.venue {
+  font-size: 17px;
+  font-family: 'Bree Serif';
+  color: white;
+}
+
+.result {
+  font-size: 17px;
+  font-family: 'Bree Serif';
+  color: white;
+}
+
+.custom-description {
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  color: white;
+}

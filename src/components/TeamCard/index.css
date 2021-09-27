@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.list-item-link {
+  text-decoration: none;
+}
+
+.image {
+  height: 100px;
+  width: 50px;
+  margin: 10px;
+}
+
+.row-styling {
+  display: flex;
+}
+
+.list-item-container {
+  list-style-type: none;
+  background-color: #ffffff33;
+  margin: 20px;
+  height: 150px;
+  width: 20vw;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+
+  align-items: center;
+}
+
+.list-item-heading {
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  color: white;
+  align-self: center;
+}
